@@ -1,4 +1,4 @@
-# OS Memory Management Visualizer
+# Alloc Dynamics
 
 A full-stack simulation tool for OS memory management concepts, featuring a high-performance **C engine**, a **Python Flask** middleware, and a **web-based dashboard** with real-time animated visualizations.
 `
@@ -29,6 +29,10 @@ A full-stack simulation tool for OS memory management concepts, featuring a high
 - GCC (C compiler)
 - Python 3.8+
 - pip
+
+## Directly use on web **https://dhruvspatel6113.github.io/AllocDynamics/**
+
+## Run Locally
 
 ### 1. Build the C Engine
 ```bash
