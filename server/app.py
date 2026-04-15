@@ -23,7 +23,8 @@ app = Flask(__name__, static_folder=None)
 
 # Path to the compiled C engine binary
 ENGINE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'engine')
-ENGINE_BIN = os.path.join(ENGINE_DIR, 'engine')
+engine_filename = 'engine.exe' if os.name == 'nt' else 'engine'
+ENGINE_BIN = os.path.join(ENGINE_DIR, engine_filename)
 
 
 # ── Static file serving ──────────────────────────────────
